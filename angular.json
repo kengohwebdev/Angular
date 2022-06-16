@@ -29,8 +29,12 @@
             ],
             "styles": [
               "src/styles.scss"
+            
             ],
-            "scripts": []
+            "scripts": [
+             
+             
+            ]
           },
           "configurations": {
             "production": {
@@ -103,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "141175bd-28cb-4e63-b324-5b8955855fdb"
   }
 }
