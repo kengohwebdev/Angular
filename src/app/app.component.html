@@ -1,5 +1,7 @@
 <router-outlet></router-outlet>
 
+
+<!-- 
 <h2 style="color :black" id="brown-text" class= "brown-text"  ><input type ="text" value = "{{' Welcome ' + studentName}}" /><br /> </h2>
 {{isDevEnvironment}}
 
@@ -8,7 +10,7 @@
 </div>
 <ng-template #production>
     <h1>Production environment</h1>
-</ng-template>
+</ng-template> -->
 
 
 <!-- {{applicationName}} 
@@ -17,28 +19,17 @@
 <br />
 {{50 | currency : 'CNY'}}<br />
 {{"Welcome to Angular"}}<br />
-
 {{6+4}}
 <input type ="text" value = "{{studentName+' Welcome'}}" /><br />
-
-
-
-
 <br />
 <input type = "button" value = "toggle div" (click) = "togglediv()" />
-
 <div *ngIf = showDiv>
     <h1>this div will be toggle</h1>
 </div>
-
 <ul><li *ngFor = "let c of countries">{{c}}</li></ul>
-
 <br />
-
 <select><option *ngFor="let c of countries">{{c}}</option></select>
-
 <br />
-
 <table border = "1">
     <tr *ngFor = "let c of countries; index as i; even as e; odd as o; first as f; last as l">
         <td>{{c}}</td> 
@@ -49,12 +40,11 @@
         <td>{{l}}</td>
     </tr>
 </table>
-
 <br />
  -->
 
 
-
+<!-- 
    
 <form ngNoForm [action]="url" method="GET">
     <fieldset>
@@ -138,7 +128,7 @@
    
         <h2> Price : {{20092.80 | currency : ' CNY'}}</h2><br />
         <div class=" col-xs-1">
-        <!-- adding thumbs up -->
+      
         <button class ="btn btn-block btn-primary" >Like <i class ="fa fa-thumbs-up"></i></button>
     </div>
     <div class ="col-xs-1">
@@ -202,7 +192,7 @@
 </form>
 </div>
 
-
+ -->
 
 
 
